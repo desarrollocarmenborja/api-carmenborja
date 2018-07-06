@@ -1,7 +1,7 @@
 {
     "swagger": "2.0",
     "info": {
-        "title": "Carmen borjas api API",
+        "title": "Carmen borjas  API",
         "version": "1.0.0"
     },
     "basePath": "http://api-carmenborja.herokuapp.com",
