@@ -17,7 +17,7 @@ class ProductController extends Controller
     {
 
         ProductResource::withoutWrapping();
-        return ProductResource::collection(Product::paginate(10));
+        return ProductResource::collection(Product::paginate(3));
 
     }
 
@@ -44,7 +44,7 @@ class ProductController extends Controller
 
             'price' => $request->price,
             'name' => $request->name
-            
+
         ]);
 
         return new Product($product);
